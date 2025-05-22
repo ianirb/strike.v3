@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Instagram, Facebook } from 'lucide-react';
+import { Mail, Instagram, Facebook, Linkedin, Music2 } from 'lucide-react';
 import StrikeLogo from './StrikeLogo';
 
 const Footer = () => {
@@ -27,6 +27,12 @@ const Footer = () => {
             </a>
             <a href="https://www.facebook.com/profile.php?id=61576245640090" className="p-2 border border-white/10 rounded-full hover:border-white/80 transition-colors">
               <Facebook className="h-5 w-5" />
+            </a>
+            <a href="https://www.linkedin.com/company/striketoscale" className="p-2 border border-white/10 rounded-full hover:border-white/80 transition-colors">
+              <Linkedin className="h-5 w-5" />
+            </a>
+            <a href="https://www.tiktok.com/@striketoscale" className="p-2 border border-white/10 rounded-full hover:border-white/80 transition-colors">
+              <Music2 className="h-5 w-5" />
             </a>
           </div>
         </div>
